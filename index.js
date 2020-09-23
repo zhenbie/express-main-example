@@ -1,6 +1,6 @@
 const app = require('./express/app');
 const sequelize = require('./sequelize');
-const PORT = 443;
+const PORT = 80;
 
 async function assertDatabaseConnectionOk() {
 	console.log(`Checking database connection...`);
